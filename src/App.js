@@ -15,9 +15,11 @@ function App() {
   );
 }
 
+// eslint-disable-next-line no-unused-vars
 function CommunityRedirect() {
   window.location.href = "https://magshadowwar.com/community/";
   return null;
 }
+
 
 export default App;
