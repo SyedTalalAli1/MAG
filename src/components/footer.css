@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+Khojki:wght@400..700&display=swap');
+
+.footer {
+    padding: 50px 40px;
+    background-color: rgb(30, 32, 32)
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 20px;
+    font-family: "Electrolize", sans-serif;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.footer-bottom {
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+.users h3 {
+    color: rgb(169, 169, 169);
+    font-size: 15px;
+
+}
+
+.footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.footer-column h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Electrolize", sans-serif;
+}
+
+.footer-column p {
+    font-family: "Electrolize", sans-serif;
+    color: rgb(211, 195, 195);
+}
+
+
+@media screen and (max-width:280px) {
+    .footer-column p{
+        font-size: 0.6rem;
+        }
+}

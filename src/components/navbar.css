@@ -1,0 +1,128 @@
+.d-inline-block {
+    width: 90px;
+    height: 90px;
+}
+
+.navbar{
+    background-color: rgb(30, 32, 32) !important;
+    overflow: hidden;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    margin-left: 150px;
+    color: white;
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-family: "Electrolize", sans-serif;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #b50f20;
+}
+.d-flex {
+    size: 20px;
+}
+
+
+.btn {
+    color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+#signup {
+    background-color: #b50f20;
+    border-color: white;
+    font-family: "Electrolize", sans-serif;
+}
+
+#signup:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.initials {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 12h32M4 20h32M4 28h32'/%3e%3c/svg%3e");
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    position: relative;
+}
+
+@media screen and (max-width:991px) {
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        font-size: 20px;
+        justify-content: center ;
+    }
+
+    #signup {
+        background-color: #ffc107;
+        border-color: white;
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+
+}
+
+
+
+@media screen and (min-width:991px) and (max-width:1200px) {
+    
+
+    .navbar-nav {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .nav-item {
+        margin-right: 20px;
+
+    }
+
+    #signup {
+        background-color: #ffc107;
+        border-color: white;
+        margin-top: 3px;
+    }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1452px) {
+   
+
+    .navbar-nav {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .nav-item {
+        margin-right: 30px;
+
+    }
+
+    #signup {
+        background-color: #ffc107;
+        border-color: white;
+        margin-top: 3px;
+    }
+
+}

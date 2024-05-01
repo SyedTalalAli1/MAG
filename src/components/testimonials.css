@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+Khojki:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Tac+One&display=swap');
+.testimonialsSection {
+    text-align: center;
+    background-color: rgb(30, 32, 32);
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.change{
+    color:rgb(175, 16, 16);
+    font-family: "Electrolize", sans-serif;
+    font-size: 4rem;
+}
+
+.testimonialHeading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Electrolize", sans-serif;
+}
+
+.testimonialsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonialCard {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #b55454;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(66, 60, 60);
+}
+
+.profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonialText {
+    font-size: 16px;
+    margin-bottom: 10px;
+    height: 60px;
+    color: rgb(231, 224, 224);
+    font-family: "Electrolize", sans-serif;
+}
+
+.testimonialName {
+    font-style: italic;
+    color: #d8cbcb;
+    font-family: "Electrolize", sans-serif;
+}
+
+@media screen and (max-width:400px){
+    .change {
+            color: rgb(175, 16, 16);
+            font-family: "Electrolize", sans-serif;
+            font-size: 2rem;
+        }
+}

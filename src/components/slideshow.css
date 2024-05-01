@@ -1,0 +1,16 @@
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.slider-show{
+    background-color: rgb(30, 32, 32);
+}
+
+#carouselExampleCaptions{
+    padding-top: 40px;
+}
+
+.plan hr{
+    color: white;
+}

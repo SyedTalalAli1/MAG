@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+Khojki:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Tac+One&display=swap');
+.image {
+    height: 700px;
+    width: 450px;
+    border-radius: 12px;
+}
+.cards{
+    background-color: rgb(30, 32, 32);
+}
+
+.plan{
+    background-color: rgb(30, 32, 32);
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.plan span{
+font-size: 50px;
+font-family: "Electrolize", sans-serif;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    color: white;
+font-family: "Electrolize", sans-serif;
+}
+.magcards {
+    background-color: rgb(30, 32, 32);
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-text {
+    position: absolute;
+    bottom: -310px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    transition: bottom 0.3s ease;
+font-family: "Electrolize", sans-serif;
+}
+
+.image-container:hover .image-text {
+    bottom: 0;
+}
+
+@media screen and (max-width:500px) {
+    .image {
+            height: 300px;
+            width: max-content;
+            border-radius: 12px;
+        }
+        .image-text {
+            font-size: 10px;
+            position: absolute;
+            bottom: -310px;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            transition: bottom 0.3s ease;
+        font-family: "Electrolize", sans-serif;
+        }
+                .image-container {
+                    display: flex;
+                    justify-content: center;
+                }
+}
+@media screen and (min-width:501px) and (max-width:1200px) {
+    
+    .image-text {
+        font-size: 10px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+}
