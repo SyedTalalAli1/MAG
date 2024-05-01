@@ -1,5 +1,4 @@
 import React from "react";
-import JeepVideo from "../assets/valor-jeep.mp4";
 import "./jeep.css";
 
 const Jeep = () => {
