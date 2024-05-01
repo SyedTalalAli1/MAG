@@ -21,7 +21,7 @@ const Cards = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="image-container">
-              <img className="image" src={image3} alt="Image 3"></img>
+              <img className="image" src={image3} alt="loading..."></img>
               <div className="image-text">
                 <h1>Explore</h1>
                 <p>
@@ -37,7 +37,7 @@ const Cards = () => {
           </div>
           <div className="col-md-4">
             <div className="image-container">
-              <img className="image" src={image2} alt="Image 2"></img>
+              <img className="image" src={image2} alt="loading..."></img>
               <div className="image-text">
                 <h1>Adventure</h1>
                 <p>
@@ -54,7 +54,7 @@ const Cards = () => {
           </div>
           <div className="col-md-4">
             <div className="image-container">
-              <img className="image" src={image1} alt="Image 1"></img>
+              <img className="image" src={image1} alt="loading..."></img>
               <div className="image-text">
                 <h1>Legendary Warriors</h1>
                 <p>
