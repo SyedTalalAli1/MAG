@@ -14,14 +14,15 @@ function Testimonials() {
       id: 1,
       name: "Hiroshi",
       comment:
-        "Heart-pounding action, endless adventure, MAG is the ultimate gaming thrill!",
+        "Heart-pounding action, endless adventure, MAG 2 is the ultimate gaming thrill!",
       rating: 5,
       profileImage: img1,
     },
     {
       id: 2,
       name: "Yuki",
-      comment: "Unleash your strategic genius in MAG, where every move counts.",
+      comment:
+        "Unleash your strategic genius in MAG 2, where every move counts.",
       rating: 4,
       profileImage: img2,
     },
@@ -29,7 +30,7 @@ function Testimonials() {
       id: 3,
       name: "Akihiko",
       comment:
-        "MAG offers an immersive gaming experience like no other, a true masterpiece.",
+        "MAG 2 offers an immersive gaming experience like no other, a true masterpiece.",
       rating: 5,
       profileImage: img3,
     },
@@ -37,7 +38,7 @@ function Testimonials() {
       id: 4,
       name: "Sakura",
       comment:
-        "Thrilling battles, epic victories, MAG keeps you on the edge of your seat.",
+        "Thrilling battles, epic victories, MAG 2 keeps you on the edge of your seat.",
       rating: 5,
       profileImage: img4,
     },
@@ -45,7 +46,7 @@ function Testimonials() {
       id: 5,
       name: "Haruka",
       comment:
-        "Join the MAG community and embark on an unforgettable gaming journey.",
+        "Join the MAG 2 community and embark on an unforgettable gaming journey.",
       rating: 5,
       profileImage: img5,
     },
@@ -53,7 +54,7 @@ function Testimonials() {
       id: 6,
       name: "Riko",
       comment:
-        "From intense firefights to epic quests, MAG offers non-stop excitement.",
+        "From intense firefights to epic quests, MAG 2 offers non-stop excitement.",
       rating: 5,
       profileImage: img6,
     },
@@ -61,7 +62,7 @@ function Testimonials() {
       id: 7,
       name: "Daichi",
       comment:
-        "Experience the adrenaline rush of MAG, where every moment is electrifying",
+        "Experience the adrenaline rush of MAG 2, where every moment is electrifying",
       rating: 5,
       profileImage: img7,
     },
