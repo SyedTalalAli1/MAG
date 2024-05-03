@@ -15,8 +15,8 @@ const Slider = () => {
         <img
           src={logo}
           alt="logo"
-          width={100}
-          height={50}
+          width={400}
+          height={100}
           className="d-inline-block align-text-top"
         />
         <button className="btn">
