@@ -47,6 +47,11 @@
     border-color: black;
 }
 
+.navbar-brand img{
+    width: 250px;
+    height: 7rem;
+}
+
 .initials {
     color: #fff;
     font-size: 18px;
