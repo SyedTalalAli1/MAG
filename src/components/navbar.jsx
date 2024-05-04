@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "../assets/logo.png";
+
 function NavBar() {
+  const [currentTime, setCurrentTime] = useState("");
+
+  useEffect(() => {
+    const intervalID = setInterval(() => {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, "0");
+      const minutes = now.getMinutes().toString().padStart(2, "0");
+      setCurrentTime(`${hours}:${minutes}`);
+    }, 1000);
+
+    return () => clearInterval(intervalID);
+  }, []);
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="/home">
           <img src={logo} alt="logo" className="d-inline-block" />
         </a>
+        <div className="clock">MAG Universal Time: {currentTime}</div>
         <button
           className="navbar-toggler"
           type="button"

@@ -5,7 +5,15 @@
     height: 600px;
     overflow: hidden;
 }
+/* navbar.css */
 
+.clock {
+    color: #b50f20;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 18px;
+}
 #video-bg {
     opacity: 1;
     position: absolute;
