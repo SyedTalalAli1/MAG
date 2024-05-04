@@ -24,8 +24,6 @@ function Footer() {
           <h4>Contact Us</h4>
           <p>wwww.magshadowwar.com</p>
           <p>Email: support@magshadowwar.com</p>
-          <p>Phone: +1 (123) 456-7890</p>
-          <p>Address: United States Of America</p>
         </div>
         <div className="footer-column">
           <h1>STATISTICS</h1>
