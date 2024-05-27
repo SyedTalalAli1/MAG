@@ -1,6 +1,6 @@
 import React from "react";
 import "./slider.css";
-import video from "../assets/introo.mp4";
+import video from "../assets/intro.mp4";
 import logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";

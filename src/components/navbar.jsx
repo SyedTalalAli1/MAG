@@ -23,7 +23,9 @@ function NavBar() {
         <a className="navbar-brand" href="/home">
           <img src={logo} alt="logo" className="d-inline-block" />
         </a>
-        <div className="clock">MAG Universal Time: {currentTime}</div>
+        <div className="clock">
+          <b>MAG Universal Time: {currentTime}</b>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
