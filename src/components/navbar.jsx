@@ -50,7 +50,10 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/portfolio">
+              <a
+                className="nav-link"
+                href="https://magshadowwar.com/community/"
+              >
                 Community
               </a>
             </li>
@@ -63,7 +66,10 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact">
+              <a
+                className="nav-link"
+                href="https://magshadowwar.com/privacy-policy/"
+              >
                 Contact
               </a>
             </li>
