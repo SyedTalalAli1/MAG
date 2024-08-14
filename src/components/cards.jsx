@@ -1,15 +1,15 @@
 import React from "react";
 import "./cards.css";
-import image1 from "../assets/image-1.png";
-import image2 from "../assets/image-2.png";
-import image3 from "../assets/image-3.png";
+import image3 from "../assets/soldier-img1.jpg";
+import image2 from "../assets/soldier-img2.jpg";
+import image1 from "../assets/soldier-img3.jpg";
 
 const Cards = () => {
   return (
     <div className="cards">
       <div className="plan">
         <h2 className="featured">
-          <span className="change">Plan Your Way</span>
+          <span className="change">Play Your Way</span>
         </h2>
       </div>
       <div className="info">

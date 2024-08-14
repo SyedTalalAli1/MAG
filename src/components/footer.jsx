@@ -70,7 +70,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 SmartKart. All rights reserved.</p>
+        <p>&copy; 2024 MAG2. All rights reserved.</p>
       </div>
     </footer>
   );
